@@ -1,0 +1,3 @@
+[submodule "libs/novile"]
+	path = libs/novile
+	url = https://github.com/tucnak/novile.git

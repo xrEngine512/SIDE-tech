@@ -1,3 +1,6 @@
 [submodule "external/novile"]
 	path = external/novile
 	url = https://github.com/tucnak/novile.git
+[submodule "external/llvm"]
+	path = external/llvm
+	url = https://github.com/llvm-mirror/llvm.git

@@ -81,3 +81,11 @@
 ##### просмотр файлов (сырая идея)
 
 Возможность сортировать файлы по метаданным в отдельном настраиваемом виде (view).
+
+##### virtual code representation in editor
+
+Ability to display source code in different code style than in file itself without modifying codestyle in file. When writing into file, keep file codestyle, and when reading apply user codestyle. If application is not possible - display as is.
+
+Possible challenges:
+1) jump to line: line numbers may differ, this will cause complications.
+2) if code is invalid we won't be able to apply codestyle to it, so we'll have to come up most pleasing to an eye solution. (Don't know how it will look if we just print out text as it is, maybe it will be fine and this is not an isuue at all)
